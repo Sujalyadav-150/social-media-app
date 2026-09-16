@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px 15px 50px;
+    background: #d98da5;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px 0 20px;
+    font-size: 24px;
+}
+
+.post-form {
+    width: 360px;
+    max-width: 95%;
+    margin: 0 auto 55px;
+    padding: 16px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+
+.post-form label {
+    display: block;
+    font-weight: bold;
+    margin: 2px 0 5px;
+}
+
+.post-form input,
+.post-form textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 9px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.post-form textarea {
+    min-height: 72px;
+    resize: vertical;
+}
+
+button {
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 14px;
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+.posts-title {
+    margin-bottom: 25px;
+}
+
+#postsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.post-card {
+    width: 360px;
+    max-width: 95%;
+    padding: 15px;
+    background: #26383f;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+.post-card img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.post-description {
+    margin: 8px 0 15px;
+    font-size: 15px;
+}
+
+.comment-heading {
+    margin: 10px 0 8px;
+}
+
+.comment-box {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.comment-box input {
+    flex: 1;
+    min-width: 0;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+}
+
+.comment-box button {
+    background: #f4f4f4;
+    color: #222;
+}
+
+.comments {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.comment {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.comment strong {
+    color: #f2bd21;
+}
+
+.empty {
+    color: #333;
+    font-size: 16px;
+}
